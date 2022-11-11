@@ -42,6 +42,11 @@
     },
     "extra": {
         "drainpipe": {
+            "tugboat": {
+                "provider": {
+                    "host": "pantheon"
+                }
+            }
         },
         "drupal-scaffold": {
             "locations": {
