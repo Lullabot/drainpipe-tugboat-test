@@ -42,6 +42,7 @@
     },
     "extra": {
         "drainpipe": {
+            "tugboat": {}
         },
         "drupal-scaffold": {
             "locations": {
