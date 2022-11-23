@@ -5,7 +5,10 @@ echo "Initializing..."
 
 # Install mysql or mariadb client.
 apt-get update
-apt-get install -y mysql-client
+# mysql was replaced by mariadb in Debian, so we have to install it manually.
+# https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/#repo-qg-apt-repo-manual-setup
+# apt-key is also deprecated, so here we install the key manually.
+./.tugboat/steps/install-mysql-client.sh
 
 # Link the document root to the expected path. Tugboat uses /docroot
 # by default. So, if Drupal is located at any other path in your git
