@@ -2635,12 +2635,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lullabot/drainpipe.git",
-                "reference": "4a3394a60d55d787d724bcc3dff478d88662c78b"
+                "reference": "1981cb92b3a27f69789d7d4ddfbf1b0425679a11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/4a3394a60d55d787d724bcc3dff478d88662c78b",
-                "reference": "4a3394a60d55d787d724bcc3dff478d88662c78b",
+                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/1981cb92b3a27f69789d7d4ddfbf1b0425679a11",
+                "reference": "1981cb92b3a27f69789d7d4ddfbf1b0425679a11",
                 "shasum": ""
             },
             "require": {
@@ -2688,7 +2688,7 @@
                 "source": "https://github.com/Lullabot/drainpipe/tree/96-tugboat",
                 "issues": "https://github.com/Lullabot/drainpipe/issues"
             },
-            "time": "2022-11-23T00:48:48+00:00"
+            "time": "2022-11-23T00:54:58+00:00"
         },
         {
             "name": "masterminds/html5",

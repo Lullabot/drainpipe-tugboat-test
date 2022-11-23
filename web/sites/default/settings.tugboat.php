@@ -12,7 +12,7 @@ if (getenv('TUGBOAT_REPO') !== FALSE) {
     'driver' => 'mysql',
   ];
 
-  if (file_exists('modules/contrib/memcache/memcache.info.yml') {
+  if (file_exists('modules/contrib/memcache/memcache.info.yml')) {
     $settings['memcache']['servers'] = ['memcached:11211' => 'default'];
     $settings['cache']['default'] = 'cache.backend.memcache';
   }
