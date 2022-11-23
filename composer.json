@@ -23,6 +23,7 @@
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
+        "drupal/memcache": "^2.5",
         "lullabot/drainpipe": "dev-96-tugboat"
     },
     "conflict": {
@@ -42,6 +43,11 @@
     },
     "extra": {
         "drainpipe": {
+            "tugboat": {
+                "provider": {
+                    "host": "acquia"
+                }
+            }
         },
         "drupal-scaffold": {
             "locations": {
